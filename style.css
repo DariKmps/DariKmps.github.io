@@ -27,7 +27,7 @@ body {
   width: 100vw;
   height: 100vh;
   position: fixed;
-  top: 0;
+  bottom: 100%;
 }
 
 .container > div {
@@ -134,18 +134,22 @@ body {
 .baloons img {
   display: inline-block;
   position: absolute;
+  bottom: 100%;
 }
 
 .baloons img:nth-child(even) {
   left: -10%;
+  bottom: 100%;
 }
 
 .baloons img:nth-child(odd) {
   right: -10%;
+  bottom: 100%;
 }
 
 .baloons img:nth-child(3n + 0) {
   left: 30%;
+  bottom: 100%;
 }
 
 .eight svg {
@@ -260,12 +264,22 @@ body {
   .six .hat {
     left: 32%;
   }
+  .text-box .fake-btn {
+    right: 5px;
+    bottom: -60px;
+  }
+
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
     left: 32%;
   }
+  .text-box .fake-btn {
+    right: 5px;
+    bottom: -60px;
+  }
+
 }
 
 @media screen and (max-width: 500px) {
