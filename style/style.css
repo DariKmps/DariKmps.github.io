@@ -61,7 +61,7 @@ body {
   width: 600px;
   margin: 0 auto;
   border: 3px solid #aaa;
-  border-radius: 5px;
+  border-radius: px;
   padding: 10px;
   position: relative;
 }
@@ -113,8 +113,9 @@ body {
 }
 
 .six {
-  position: relative;
+  position: absolute;
 }
+
 
 .six img {
   display: inline-block;
@@ -165,19 +166,19 @@ body {
 .eight svg:nth-child(2) {
   top: 23vh;
   left: 35vw;
-  fill: #7dd175;
+  fill: #8175d1;
 }
 
 .eight svg:nth-child(3) {
   top: 33vh;
   left: 23vw;
-  fill: #349d8b;
+  fill: #9d3470;
 }
 
 .eight svg:nth-child(4) {
   top: 43vh;
   left: 57vw;
-  fill: #347a9d;
+  fill: #889d34;
 }
 
 .eight svg:nth-child(5) {
@@ -237,24 +238,44 @@ body {
   .six .hat {
     left: 40%;
   }
+  .text-box .fake-btn {
+    right: 5px;
+    bottom: -60px;
+  }
+
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
     left: 37%;
   }
+  .text-box .fake-btn {
+    right: 5px;
+    bottom: -60px;
+  }
+
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
     left: 32%;
   }
+  .text-box .fake-btn {
+    right: 5px;
+    bottom: -60px;
+  }
+
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
     left: 32%;
   }
+  .text-box .fake-btn {
+    right: 5px;
+    bottom: -60px;
+  }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -268,7 +289,7 @@ body {
 
   .text-box .fake-btn {
     right: 5px;
-    bottom: -38px;
+    bottom: -60px;
   }
 
   .idea-5 span {
